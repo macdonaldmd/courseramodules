@@ -9,7 +9,14 @@ h1 {
 	color: #000000;
 }
 
-/* HEADER */
+* {
+	box-sizing: border-box;
+}
+
+#beef {
+	/*clear:left;*/
+}
+
 #header-nav {
 	background-color: #000000;
 	border-radius: 0;
@@ -34,9 +41,7 @@ h1 {
 #nav-list a:hover {
 	background-color: #8243d6;
 }
-/* END HEADER */
 
-/* Section */
 #home {
 	margin-bottom: 30px;
 }
@@ -54,12 +59,11 @@ h1 {
 	padding: 12px;
 	color: black;
 }
-/* End Section */
 
 
 @media (max-width: 767px) {
 	.row > div > article {
-		width: 80%;
-		margin: 20px auto 0;
+		width: 80% !important;
+		margin: 20px auto 0 !important;
 	}
 }
